@@ -9,7 +9,7 @@ import spacy
 
 
 
-nlp = spacy.load("es_dep_news_trf")
+nlp = spacy.load("es_core_news_sm")
 
 app = FastAPI(
     title="Servicio para detectar cliches",
